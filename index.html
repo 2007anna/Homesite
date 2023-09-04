@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <title>Portfolio</title>
+</head>
+<body>
+   <header class="header">
+    <div class="container header_container">
+        <a href="" class="header_logo"><img src="images/Logo.svg" alt=""></a>
+        <nav class="header_menu">
+            <ul class="menu_list">
+                <li class="menu_item">
+                    <div class="dropdown">
+                        <button class="dropbtn" onclick="myFunction()"> Menu
+                          <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content" id="myDropdown">
+                          <a href="index2.html">Work</a>
+                          <a href="index3.html">About</a>
+                          <a href="index4.html">Contact me</a>
+                        </div>
+                        </div> 
+                    
+                
+                </li>             
+                <li class="menu_item"><a href="#home" class="menu_link">HOME</a></li>
+                <li class="menu_item"><a href="#work" class="menu_link">Work</a></li>
+                <li class="menu_item"><a href="#about" class="menu_link">About</a></li>
+                <li class="menu_item"><a href="#footer" class="menu_link">Contact me</a></li>
+            </ul>
+        </nav>
+        <div class="menu_icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+   </header>
+   <section id="home" class="hero">
+    <div class="container">
+        <h1 class="hero_title">I’m a designer specialising in <span>UI/UX</span> and <span>Interaction Design</span></h1>
+        <a href="#work" class="hero_arrow"></a>
+    </div>
+   </section>
+   <section class="clients">
+    <div class="container clients_container">
+        <h2 class="clients_title"><span>Some of</span>  the clients I have designed for</h2>
+        <div class="clients_body">
+            <div class="clients_item"><img src="images/Airbnb Logo.svg" alt=""></div>
+            <div class="clients_item"><img src="images/Google Logo.svg" alt=""></div>
+            <div class="clients_item"><img src="images/Microsoft Logo.svg" alt=""></div>
+            <div class="clients_item"><img src="images/FedEx Logo.svg" alt=""></div>
+        </div>
+    </div>
+   </section>
+   <section id="work" class="works" id="works">
+    <div class="container works_container">
+        <h2 class="works_title">Selected <span>Works</span></h2>
+        <div class="works_body">
+            <div class="works_card card">
+                <div class="card_img">
+                    <img src="images/Card1.png" alt="">
+                </div>
+                <div class="card_info">
+                    <span class="card_tag">Real estate Template</span>
+                    <div class="card_text">Lorem ipsum dolor sit amet, consectetur <span>adipiscing elit. Ultrices lorem non feugiat egestas amet.</span></div>
+                    <div class="card_category">Website Design</div>
+                    <a href="" class="card_button">View work</a>
+                </div>
+            </div>
+            <div class="works_card card card_r">
+                <div class="card_img">
+                    <img src="images/Card2.png" alt="">
+                </div>
+                <div class="card_info">
+                    <span class="card_tag">Plant identification app</span>
+                    <div class="card_text">Lorem ipsum dolor sit amet, consectetur <span>adipiscing elit. Ultrices lorem non feugiat egestas amet.</span></div>
+                    <div class="card_category">Mobile App</div>
+                    <a href="" class="card_button">View work</a>
+                </div>
+            </div>
+            <div class="works_card card">
+                <div class="card_img">
+                    <img src="images/Card3.png" alt="">
+                </div>
+                <div class="card_info">
+                    <span class="card_tag">Smart Home App</span>
+                    <div class="card_text">Lorem ipsum dolor sit amet, consectetur <span>adipiscing elit. Ultrices lorem non feugiat egestas amet.</span></div>
+                    <div class="card_category">Mobile App</div>
+                    <a href="" class="card_button">View work</a>
+                </div>
+            </div>
+            <div class="works_card card card_r">
+                <div class="card_img">
+                    <img src="images/Card4.png" alt="">
+                </div>
+                <div class="card_info">
+                    <span class="card_tag">Logo Animation</span>
+                    <div class="card_text">Lorem ipsum dolor sit amet, consectetur <span>adipiscing elit. Ultrices lorem non feugiat egestas amet.</span></div>
+                    <div class="card_category">Animation</div>
+                    <a href="" class="card_button">View work</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+   </section>
+   <section id="about" class="about">
+    <div class="container about_container">
+        <div class="about_info">
+            <h2 class="about_title">A bit about me</h2>
+            <div class="about_text">
+                <span>I am a UI/UX designer who is passionate about creating</span> beautiful and joyful digital experiences. Besides design, I love music, games and travelling.
+            </div>
+        </div>
+        <div class="about_gallery">
+            <div class="about_img"> <img src="images/About1.png" alt=""></div>
+            <div class="about_img"> <img src="images/About2.png" alt=""></div>
+            <div class="about_img"> <img src="images/About3.png" alt=""></div>
+        </div>
+        
+    </div>
+   </section>
+   <footer id="footer" class="footer">
+    <div class="container footer_container">
+        <h3 class="footer_title"><span>Get</span> in Touch.</h3>
+        <span class="footer_subtitle">So that we can talk more about...</span>
+        <div class="footer_socials">
+            <a href="" class="footer_social">
+                <svg width="28" height="23" viewBox="0 0 28 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M28 6.95117V18.35C28.0001 19.5122 27.5554 20.6303 26.7573 21.4751C25.9591 22.3199 24.8679 22.8272 23.7076 22.893L23.45 22.9H4.55C3.38781 22.9 2.26964 22.4554 1.42488 21.6572C0.580113 20.8591 0.0727981 19.7679 0.00700016 18.6076L0 18.35V6.95117L13.5128 14.0296C13.6631 14.1083 13.8303 14.1494 14 14.1494C14.1697 14.1494 14.3369 14.1083 14.4872 14.0296L28 6.95117Z" fill="#E3E4E6" fill-opacity="0.55"/>
+                    <path d="M4.54991 0.5H23.4499C24.5777 0.499864 25.6654 0.918594 26.502 1.67497C27.3385 2.43135 27.8644 3.47147 27.9775 4.5936L13.9999 11.9156L0.0223064 4.5936C0.130839 3.51604 0.620176 2.51252 1.40236 1.76345C2.18454 1.01437 3.20826 0.568862 4.28951 0.507L4.54991 0.5H23.4499H4.54991Z" fill="#E3E4E6" fill-opacity="0.55"/>
+                    </svg>
+                </a>
+            <a href="" class="footer_social_B">
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="49" viewBox="0 0 48 49" fill="none">
+                    <path d="M16.441 13.5C17.5007 13.5 18.4543 13.5918 19.3287 13.7789C20.1977 13.9642 20.939 14.2701 21.5652 14.6929C22.1823 15.1157 22.6645 15.6771 23.0117 16.3824C23.3482 17.0787 23.5155 17.9495 23.5155 18.9787C23.5155 20.0942 23.2636 21.0262 22.7581 21.7693C22.2489 22.5142 21.4986 23.1241 20.4982 23.5955C21.8602 23.9895 22.8696 24.6786 23.5389 25.6574C24.2118 26.6452 24.5411 27.8273 24.5411 29.2127C24.5411 30.3372 24.327 31.3034 23.897 32.1149C23.4826 32.9142 22.8814 33.6018 22.1445 34.1192C21.3812 34.6507 20.5286 35.0408 19.6274 35.2707C18.6825 35.5188 17.7094 35.6433 16.7324 35.6414H6V13.5H16.441ZM15.8094 22.4458C16.6731 22.4458 17.3891 22.2407 17.9541 21.8251C18.5155 21.4148 18.7872 20.7383 18.7872 19.8117C18.7872 19.2971 18.6954 18.8725 18.5155 18.5397C18.3402 18.2194 18.0807 17.9532 17.7652 17.7696C17.4349 17.5737 17.0704 17.4424 16.691 17.3827C16.2776 17.3056 15.8576 17.2689 15.437 17.273H10.8759V22.4458H15.8094ZM16.0811 31.872C16.5615 31.872 17.0185 31.8306 17.4485 31.7334C17.8821 31.6399 18.2672 31.4887 18.5946 31.2638C18.9221 31.0479 19.192 30.7546 19.3863 30.3804C19.5824 30.0098 19.6778 29.5258 19.6778 28.9446C19.6778 27.8039 19.3557 26.9924 18.7188 26.5013C18.0801 26.0155 17.2236 25.7744 16.1747 25.7744H10.8759V31.8738H16.0811V31.872ZM31.4915 31.7982C32.1519 32.4423 33.1037 32.7662 34.3415 32.7662C35.2285 32.7662 35.995 32.5413 36.6409 32.0951C37.2779 31.6471 37.6665 31.1685 37.8158 30.6737H41.6932C41.0707 32.6025 40.1261 33.9807 38.8342 34.8101C37.5586 35.6432 36.0058 36.057 34.1922 36.057C32.9291 36.057 31.792 35.8537 30.7736 35.4506C29.7962 35.07 28.9128 34.4819 28.1845 33.727C27.4683 32.9544 26.9145 32.0458 26.5562 31.0551C26.1624 29.9596 25.9674 28.8025 25.9805 27.6384C25.9805 26.4401 26.1802 25.3192 26.5724 24.2846C26.9448 23.2846 27.5165 22.3706 28.2529 21.5983C28.9816 20.8427 29.8452 20.2471 30.851 19.8099C31.9086 19.3651 33.0467 19.1434 34.194 19.1586C35.5506 19.1586 36.7363 19.4213 37.7547 19.9503C38.7422 20.4552 39.5985 21.1834 40.2556 22.0769C40.9087 22.964 41.3747 23.9805 41.6644 25.1194C41.9541 26.2566 42.0548 27.4441 41.9721 28.6873H30.4012C30.403 29.954 30.8294 31.1541 31.4915 31.7982ZM36.551 23.376C36.0274 22.7966 35.1422 22.4836 34.059 22.4836C33.3555 22.4836 32.7744 22.6005 32.3066 22.8416C31.8789 23.0577 31.4994 23.3582 31.1911 23.725C30.9203 24.0581 30.7196 24.4424 30.6009 24.855C30.4971 25.1989 30.4302 25.553 30.4012 25.9111H37.5657C37.4614 24.7884 37.0764 23.9589 36.551 23.376ZM29.5016 14.9862H38.478V17.1722H29.5016V14.9862Z" fill="#E3E4E6" fill-opacity="0.55"/>
+                    </svg>
+            </a>
+            <a href="" class="footer_social">
+                 <svg width="32" height="31" viewBox="0 0 32 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M30 15.5C30.0023 17.344 29.6392 19.1702 28.9317 20.8731C28.2241 22.576 27.1861 24.1217 25.8777 25.4211C24.5799 26.7166 23.0396 27.7436 21.3447 28.4435C19.6498 29.1433 17.8337 29.5024 16 29.5C8.26778 29.5 1.99998 23.2322 1.99998 15.5C1.99509 11.9102 3.37399 8.45671 5.84998 5.85751C7.15642 4.47893 8.73042 3.38143 10.4757 2.63218C12.2209 1.88293 14.1007 1.49768 16 1.50001C17.8337 1.49764 19.6498 1.85665 21.3447 2.55653C23.0396 3.25641 24.5799 4.28343 25.8777 5.57891M30 15.5C30.0023 13.656 29.6392 11.8298 28.9317 10.1269C28.2241 8.42404 27.1861 6.87826 25.8777 5.57891M30 15.5C27.9574 15.5 22.3224 14.7299 17.2789 16.944C11.8 19.3499 7.83312 23.0816 6.10412 25.4028M30 15.5C30 17.2241 29.6884 18.8746 29.1179 20.3999M25.8777 5.57891C24.6449 4.35058 23.1942 3.36227 21.5999 2.6647M10.75 2.518C12.941 4.5403 17.722 9.68949 19.5 14.8002C21.278 19.9116 21.936 26.1962 22.342 27.9847M2.10787 13.7501C4.75246 13.9097 11.7532 14.0532 16.2332 12.1401C20.7132 10.227 24.568 6.70808 25.8903 5.59159M3.04993 20.8291C4.28355 23.8152 6.50842 26.285 9.34993 27.8228" stroke="#E3E4E6" stroke-opacity="0.55" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </a>
+            <a href="" class="footer_social"> 
+                 <svg width="28" height="26" viewBox="0 0 28 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10.4005 9.28109H15.6001V11.6121C16.3491 10.2715 18.2699 9.06689 21.1553 9.06689C26.6867 9.06689 27.9999 11.7356 27.9999 16.6319V25.7002H22.3999V17.747C22.3999 14.9587 21.6509 13.3862 19.7441 13.3862C17.0995 13.3862 16.0005 15.0809 16.0005 17.7458V25.7002H10.4005V9.28109Z" fill="#E3E4E6" fill-opacity="0.55"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.797913 25.486H6.39791V9.06689H0.797913V25.486Z" fill="#E3E4E6" fill-opacity="0.55"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.2002 3.713C7.20041 4.13545 7.10732 4.55372 6.92634 4.9435C6.74537 5.33329 6.48011 5.68681 6.146 5.98352C5.46896 6.58911 4.55253 6.92809 3.598 6.926C2.64515 6.92543 1.73084 6.58731 1.0528 5.98478C0.719896 5.68706 0.45554 5.33314 0.274881 4.94331C0.0942221 4.55347 0.000810785 4.13538 0 3.713C0 2.85998 0.378 2.0435 1.0542 1.44122C1.73164 0.83788 2.64634 0.499623 3.5994 0.5C4.5542 0.5 5.4698 0.83894 6.146 1.44122C6.8208 2.0435 7.2002 2.85998 7.2002 3.713Z" fill="#E3E4E6" fill-opacity="0.55"/>
+                </svg>
+            </a>
+        </div>
+     </div>
+   </footer>
+   <script src="js/script.js"></script>
+   <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+</body>
+</html>
